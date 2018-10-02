@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* Tools */
+@import "bourbon",
+"sass-tool/font-size/ptp-14";
+@import "bourbon/bourbon";
+
+/* style Setting  */
+@import "_utility.scss";
+@import "_layout.scss";
+
+
+.index {
+.content__lineup {
+    &:before {
+        content: " ";
+        display: block;
+        width: 100%;
+        height: 50px;
+        background: #fff;
+    }
+}
+#js-pageTop {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+}
