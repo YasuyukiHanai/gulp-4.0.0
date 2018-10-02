@@ -24,7 +24,9 @@
     "node-neat": "^1.7.2"
   },
   "devDependencies": {
+    "cryptiles": "^4.1.2",
     "gulp": "^4.0.0",
-    "gulp-sass": "^4.0.1"
+    "gulp-sass": "^4.0.1",
+    "hoek": "^5.0.4"
   }
 }
