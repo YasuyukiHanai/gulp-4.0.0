@@ -13,13 +13,13 @@ _gulpfile.js（v3.9.1）からgulpfile.js（v4.0.0）へ変更。
   <dt>・gulp.watchの引数も変更</dt>
 </dl>
 
-詳細参考:
-[かもメモ Gulp v4 移行メモ](https://chaika.hatenablog.com/entry/2018/06/02/090000)
+詳細参考:  
+[かもメモ Gulp v4 移行メモ](https://chaika.hatenablog.com/entry/2018/06/02/090000)  
 [CodeCode gulp@4.0.0を試してみた](https://codecodeweb.com/blog/459)
 
 - - -
 
-#####　
+#####　  
 ##### メモ
 
 - 直列処理・並列処理にはなにかしらの引数をもたせ（gulpfile.jsでは'done'）コールバック関数でタスクの完了を明示させないとエラーになる。  
